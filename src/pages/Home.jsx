@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import ProjectCard from '../components/cards/ProjectCard'; // Import ProjectCard
 import '../App.css'; // Tailwind imports are now here
-import code2concept from "../assets/images/rawCode2concept.png";
-import extension from "../assets/images/rawExtension.png";
-import webly from "../assets/images/rawWebly.png";
+import code2concept from "../assets/images/code2concept.png";
+import extension from "../assets/images/webExtension.png";
+import webly from "../assets/images/weblyAiWebsite.png";
 import ThreeDModel from './ThreeDModel';
 
 function Home() {
