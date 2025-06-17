@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./Header.css"
-import Qaisar_Resume from "../assets/Qaisar_Resume.pdf"
+import Final_Qaisar_Resume from "../assets/Final_Qaisar_Resume.pdf"
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -53,7 +53,7 @@ const Header = () => {
             WORKS
           </button>
           <a 
-            href={Qaisar_Resume}
+            href={Final_Qaisar_Resume}
             download="Mohd_Qaisar_Moin_Resume.pdf"
             className="bg-white text-black py-1 px-3 lg:px-5 rounded-full text-[13px] lg:text-[15px] font-semibold uppercase flex items-center justify-center hover:bg-gray-200 transition-colors duration-300 ease-in-out w-24 lg:w-28 text-center"
           >
@@ -83,7 +83,7 @@ const Header = () => {
               WORKS
             </button>
             <a 
-              href={Qaisar_Resume}
+              href={Final_Qaisar_Resume}
             download="Mohd_Qaisar_Moin_Resume.pdf"
               className="bg-white text-black py-2 px-8 rounded-full text-[15px] font-semibold uppercase hover:bg-gray-200 transition-colors duration-300"
             >
