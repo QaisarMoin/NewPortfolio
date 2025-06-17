@@ -1,0 +1,20 @@
+.skills-container {
+  background-color: #0d0d0d; /* Black background */
+  color: #fff; /* White text */
+  min-height: 100vh;
+  padding-bottom: 40px; /* Add some bottom padding */
+}
+
+/* Marquee Section Styles */
+.marquee-section {
+  padding: 20px 0; /* Add vertical padding */
+}
+
+.marquee-section .marquee-image {
+  height: 150px; /* Adjust image height as needed */
+  margin: 0 10px; /* Space between images */
+  vertical-align: middle; /* Align images nicely */
+}
+
+
+

@@ -1,0 +1,10 @@
+.tech-capsule {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    margin: 0.2rem;
+    border-radius: 9999px; /* Large border-radius for capsule shape */
+    background-color: #1a202c; /* Dark background color, adjust as needed */
+    color: #ffffff; /* White text color */
+    font-size: 0.9rem;
+    white-space: nowrap; /* Prevent text wrapping */
+  } 

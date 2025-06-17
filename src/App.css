@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Entry animation */
+.fade-slide-in {
+    animation: fadeSlideIn 0.6s ease-out forwards;
+    opacity: 0;
+    transform: translateY(20px); /* ⚠️ No scale here */
+  }
+  
+  @keyframes fadeSlideIn {
+    to {
+      opacity: 1;
+      transform: translateY(0); /* ⚠️ No scale here */
+    }
+  }
+  
+  /* Optional staggered animation delays */
+  .delay-0 { animation-delay: 0s; }
+  .delay-1 { animation-delay: 1s; }
+  .delay-2 { animation-delay: 2s; }
+  .delay-3 { animation-delay: 3s; }
+  .delay-4 { animation-delay: 4s; }
+  .delay-5 { animation-delay: 5s; }
+  .delay-6 { animation-delay: 6s; }
+  

@@ -1,0 +1,217 @@
+.about-container {
+  display: flex;
+  padding: 80px 40px; /* Adjust padding */
+  background-color: #0d0d0d; /* Black background */
+  color: #fff; /* White text */
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif; /* Use a placeholder font, replace with the correct one */
+  align-items: center; /* Vertically center content */
+}
+
+.about-left {
+  flex: 1; /* Take up remaining space */
+  padding-right: 80px; /* Increase space between columns */
+}
+
+.selected-works-text {
+    font-size: 1.1em; /* Adjust size */
+    color: #888; /* Grey color */
+    margin-bottom: 10px; /* Space below */
+    text-transform: uppercase;
+}
+
+.about-heading {
+  font-size: 3em; /* Large size for heading */
+  margin-bottom: 80px; /* Space below heading */
+  line-height: 1.1; /* Adjust line height */
+  font-weight: bold;
+  color: white; /* Yellowish color from image */
+  text-align: left;
+    width:100%;
+}
+
+.about-description {
+  font-size: 1em;
+  margin-bottom: 40px; /* Space below description */
+  line-height: 1.6;
+  color: #ccc; /* Slightly lighter text */
+}
+
+.about-buttons {
+    display: flex;
+    gap: 20px; /* Space between buttons */
+    margin-bottom: 40px; /* Space below buttons */
+    align-items: center; /* Vertically align buttons */
+}
+
+.chat-button {
+    background-color: #e7e93c; /* Yellowish background */
+    color: #000; /* Black text */
+    padding: 12px 25px; /* Adjust padding */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.chat-button:hover {
+    background-color: #d1d335; /* Darker yellow on hover */
+}
+
+.start-project-button {
+    background: none;
+    color: #fff; /* White text */
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.start-project-button:hover {
+    text-decoration: underline;
+}
+
+.about-stats {
+    display: flex;
+    gap: 40px; /* Space between stats */
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-number {
+    font-size: 1.8em; /* Adjust size */
+    font-weight: bold;
+    color: #fff; /* White color */
+}
+
+.stat-label {
+    font-size: 0.9em;
+    color: #888; /* Grey color */
+    text-transform: uppercase;
+}
+
+.about-right {
+  flex: 1; /* Take up remaining space */
+  display: flex;
+  flex-direction: column; /* Stack image and services vertically */
+  align-items: center; /* Center image and services horizontally */
+}
+
+.about-main-image {
+  position: relative; /* Needed for absolute positioning of pseudo-elements */
+  display: inline-block; /* Wrap container around image */
+  margin-bottom: 40px; /* Space below image and its effects */
+  border-radius: 15px; /* Apply rounded corners to the container */
+  overflow: visible; /* Allow pseudo-elements to be visible outside the container */
+  box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.8); /* Adjusted solid shadow offset and color */
+}
+
+.about-main-image img {
+  max-width: 100%; /* Ensure image fits within container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra space below image */
+  border-radius: 15px; /* Apply rounded corners to the image */
+}
+
+.about-main-image::before,
+.about-main-image::after {
+    content: '';
+    position: absolute;
+    width: 40px; /* Adjusted size */
+    height: 40px; /* Adjusted size */
+    border: 3px solid transparent; /* Border width */
+    box-sizing: border-box;
+    border-image: linear-gradient(to bottom right, #ff00f2, #8700ff) 1; /* Apply gradient */
+    border-image-slice: 1;
+    border-radius: 10px; /* Adjusted radius for the corner shapes */
+}
+
+.about-main-image::before {
+    top: -15px; /* Adjusted position */
+    left: -15px; /* Adjusted position */
+    border-bottom-color: transparent; /* Hide unwanted border */
+    border-right-color: transparent; /* Hide unwanted border */
+}
+
+.about-main-image::after {
+    bottom: -15px; /* Adjusted position */
+    right: -15px; /* Adjusted position */
+    border-top-color: transparent; /* Hide unwanted border */
+    border-left-color: transparent; /* Hide unwanted border */
+}
+
+.about-services {
+    display: flex;
+    flex-direction: column; /* Stack service items vertically */
+    gap: 20px; /* Space between service items */
+    width: 100%; /* Make services container take full width */
+    max-width: 400px; /* Limit width for service blocks */
+}
+
+.service-item {
+    display: flex;
+    align-items: flex-start; /* Align icon and text at the top */
+    gap: 15px; /* Space between icon and text */
+}
+
+.service-icon {
+    font-size: 1.5em; /* Adjust icon size */
+    color: #e7e93c; /* Yellowish color */
+}
+
+.service-details h3 {
+    font-size: 1.1em; /* Adjust size */
+    margin-bottom: 5px; /* Space below title */
+    font-weight: bold;
+    color: #fff; /* White color */
+    text-transform: uppercase;
+}
+
+.service-details p {
+    font-size: 0.9em;
+    color: #ccc; /* Slightly lighter text */
+    line-height: 1.5;
+}
+
+/* Adjust layout for smaller screens */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column; /* Stack columns vertically */
+    padding: 40px 20px; /* Adjust padding */
+  }
+
+  .about-left {
+    padding-right: 0; /* Remove right padding */
+    padding-bottom: 40px; /* Add bottom padding */
+  }
+
+  .about-buttons {
+      flex-direction: column; /* Stack buttons vertically */
+      gap: 10px; /* Adjust gap */
+  }
+
+  .about-stats {
+      gap: 20px; /* Adjust gap */
+  }
+
+  .about-right {
+      align-items: center; /* Center items */
+  }
+
+  .about-services {
+      max-width: 100%; /* Allow services to take full width */
+  }
+}
+
+.about-image-stack {
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+  position: relative;
+  z-index: 1;
+} 

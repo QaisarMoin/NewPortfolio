@@ -1,0 +1,52 @@
+#page1-in {
+  perspective: 1800px;
+  z-index: 0px;
+}
+
+#page2-in {
+  position: relative;
+  perspective: 1800px;
+}
+
+.container {
+  height: 300vh;
+  background-color: red;
+  overflow: visible;
+  position: relative;
+}
+
+.sticky-element {
+  position: sticky;
+  top: 20px;
+  height: 20vh;
+  background-color: green;
+}
+
+.page3_Marquee {
+  rotate: -3deg;
+  transform-origin: 0%;
+  z-index: 5px;
+}
+
+.page3_shiningBorder {
+  box-shadow: 0 0 30px #fff, 0 0 0px #fff, 0 0 0px #fff;
+}
+
+.page2_bgGradient {
+  background: rgb(32, 32, 32);
+  background: linear-gradient(
+    180deg,
+    rgba(32, 32, 32, 1) 0%,
+    rgba(20, 20, 20, 1) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page2_bgGradient_top {
+  background: rgb(37, 37, 37);
+  background: linear-gradient(180deg, rgb(44, 43, 43) 0%, rgb(26, 25, 25) 100%);
+}
