@@ -5,7 +5,7 @@ import code2concept from "../assets/images/code2concept.png";
 import blog from "../assets/images/BlogingWebsie.png";
 import pixel from "../assets/images/pixelPrompt.png";
 import webly from "../assets/images/weblyAiWebsite.png";
-import extension from "../assets/images/webextension.png";
+import extension from "../assets/images/webExtension.png";
 import "./AllProjectsDialog.css"
 import TechCapsule from "./TechCapsule"
 

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Card from "../Card"
 import code2concept from "../../assets/images/code2concept.png";
-import extension from "../../assets/images/webextension.png";
+import extension from "../../assets/images/webExtension.png";
 import webly from "../../assets/images/weblyAiWebsite.png";
 // import "../CardPage/sample.css";
 import "./CardPage.css";
