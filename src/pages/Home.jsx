@@ -16,11 +16,11 @@ function Home() {
         <section className="flex flex-col items-center justify-center text-center px-4 ">
           <div className=' w-[500px] mt-10'>
           <h1 className={`font-['Impact'] text-[45px] leading-tight mb-6 font-bold uppercase transition-opacity duration-300 `}>
-            <span className="block md:text-4xl text-3xl">Software</span>
+            <span className="block md:text-4xl text-3xl">Full Stack</span>
             <span className="block md:text-8xl text-5xl">DEVELOPER</span>
           </h1>
           <p className={` text-gray-400 leading-relaxed font-medium  text-md transition-opacity duration-300`}>
-            I'M <span className='text-white uppercase'>Qaisar Moin</span>, WEBDEVELOPER &  WEBDESIGNER  <br /> SINCE 2022.<br/>
+            I'M <span className='text-white uppercase'>Mohd Qaisar Moin</span>, FULL STACK & AI DEVELOPER  <br /> SINCE 2022.<br/>
             BASED IN <span className='text-white'>MADHYA PRADESH, INDIA</span> 
           </p>
           </div>

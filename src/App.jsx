@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from './pages/Home';
 import About from './pages/About';
+import Experience from './pages/Experience';
 import Skills from './pages/Skills';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -20,6 +21,10 @@ function App() {
       <SectionDivider />
       <section id="about">
       <About />
+      </section>
+      <SectionDivider />
+      <section id="experience">
+      <Experience />
       </section>
       <SectionDivider />
       {/* <Projects /> */}
