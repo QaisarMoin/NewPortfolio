@@ -74,90 +74,90 @@ function Skills() {
               {/* Placeholder for skill cards based on the second part of the image */}
               <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 justify-items-center">
 
-
-
-
-
                 <div 
                 className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
                     <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
-                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">ReactJs</h3>
+                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">React.js</h3>
                 </div>
-                
 
-                <div 
-                className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
-                    <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
-                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">NextJs</h3>
-                </div>
-                
-
-                <div 
-                className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
-                    <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
-                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">Redux</h3>
-                </div>
-                
                 <div 
                 className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
                     <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
                     <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">React Native</h3>
                 </div>
-                
+
                 <div 
                 className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
                     <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
-                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">GSAP</h3>
+                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">Redux Toolkit</h3>
                 </div>
-                
-                <div 
-                className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
-                    <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
-                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">HTML</h3>
-                </div>
-                
-                <div 
-                className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
-                    <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
-                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">CSS</h3>
-                </div>
-                
-                <div 
-                className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
-                    <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
-                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">JavaScript</h3>
-                </div>
-                
+
                 <div 
                 className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
                     <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
                     <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">Node.js</h3>
                 </div>
-                
+
                 <div 
                 className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
                     <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
                     <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">Express.js</h3>
                 </div>
-                
+
+                <div 
+                className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
+                    <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
+                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">FastAPI</h3>
+                </div>
+
+                <div 
+                className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
+                    <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
+                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">REST APIs</h3>
+                </div>
+
                 <div 
                 className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
                     <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
                     <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">MongoDB</h3>
                 </div>
-                
+
                 <div 
                 className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
                     <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
-                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">MySQL</h3>
+                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">PostgreSQL</h3>
                 </div>
-                
+
                 <div 
                 className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
                     <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
-                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">Socket.io</h3>
+                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">SQLAlchemy</h3>
                 </div>
-                
+
+                <div 
+                className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
+                    <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
+                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">Socket.IO</h3>
+                </div>
+
+                <div 
+                className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
+                    <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
+                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">Tailwind CSS</h3>
+                </div>
+
+                <div 
+                className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
+                    <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
+                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">GSAP</h3>
+                </div>
+
+                <div 
+                className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
+                    <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
+                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">Next.js</h3>
+                </div>
+
                 <div 
                 className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
                     <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
@@ -179,7 +179,6 @@ function Skills() {
      </div>
 
           <div className="skills-cards-container mt-10">
-              {/* Placeholder for skill cards based on the second part of the image */}
               <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 justify-items-center">
                 <div 
                 className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
@@ -192,13 +191,24 @@ function Skills() {
                     <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
                     <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">TypeScript</h3>
                 </div>
+
+                <div 
+                className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
+                    <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
+                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">Python</h3>
+                </div>
                 
                 <div 
                 className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
                     <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
                     <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">Java</h3>
                 </div>
-                
+
+                <div 
+                className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
+                    <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
+                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">FastAPI</h3>
+                </div>
                 
               </div>
               {/* Add more skill cards as needed */}
@@ -215,12 +225,17 @@ function Skills() {
      </div>
 
           <div className="skills-cards-container mt-10">
-              {/* Placeholder for skill cards based on the second part of the image */}
               <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 justify-items-center">
                 <div 
                 className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
                     <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
-                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">Cursor</h3>
+                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">Git</h3>
+                </div>
+
+                <div 
+                className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
+                    <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
+                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">GitHub</h3>
                 </div>
                 
                 <div 
@@ -232,22 +247,31 @@ function Skills() {
                 <div 
                 className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
                     <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
-                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">Git CodeSpace</h3>
+                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">IntelliJ IDEA</h3>
                 </div>
                 
+                <div 
+                className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
+                    <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
+                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">WebContainer</h3>
+                </div>
+
                 <div 
                 className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
                     <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
                     <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">Android Studio</h3>
                 </div>
                 
-                
+                <div 
+                className=" group w-[140px] sm:w-[160px] md:w-[180px] h-[40px] sm:h-[50px] md:h-[60px] p-2 sm:p-3 md:p-4 flex items-center justify-center transition-all duration-300 ease-in-out transform hover:scale-105 bg-[#1a1a1a] border border-white/20 rounded-lg overflow-hidden hover:bg-black/10  cursor-pointer">
+                    <div className="absolute bottom-0 left-0 w-full h-[1px] bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></div>
+                    <h3 className="text-xs sm:text-sm md:text-base font-bold text-center text-white">Cursor</h3>
+                </div>
+
               </div>
               {/* Add more skill cards as needed */}
           </div>
       </div>
-
-
 
     </div>
   );
