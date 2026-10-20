@@ -26,22 +26,22 @@ function About() {
           <p>
             <span className="font-bold">Who I Am</span>
             <br />
-            <span className="font-semibold text-white text-lg">I'm a builder of digital experiences</span>—driven by curiosity, fueled by creativity, and grounded in strong technical foundations. 
-            <span className="font-semibold text-white text-lg">I don't just write code</span>; I bring ideas to life with precision, performance, and purpose.
+            <span className="font-semibold text-white text-lg">Full Stack Developer & AI Engineer</span> with a passion for building scalable web applications, backend services, and AI systems. 
+            <span className="font-semibold text-white text-lg">Pursuing B.Tech in Information Technology</span> at Jabalpur Engineering College (2022–2026), grounded in solid engineering and problem-solving.
           </p>
 
           <p>
             <span className="font-bold">What I Do</span>
             <br />
-            <span className="font-semibold text-white text-lg">From sleek user interfaces to complex system architectures</span>, I craft solutions that are fast, functional, and future-ready. 
-            <span className="font-semibold text-white text-lg">Whether it's a web app, a smart AI tool, or a digital product</span>—I make it happen.
+            <span className="font-semibold text-white text-lg">Specializing in MERN Stack, React Native, Python, and FastAPI</span> to create end-to-end digital products. 
+            <span className="font-semibold text-white text-lg">From intelligent GenAI agents and RAG pipelines</span> (LangChain, LangGraph) to high-performance RESTful APIs, database design, and sleek user interfaces.
           </p>
 
           <p>
-            <span className="font-bold">Why It Matters</span>
+            <span className="font-bold">Experience & Impact</span>
             <br />
-            <span className="font-semibold text-white text-lg">Technology should solve real problems and elevate experiences</span>. 
-            Every project I take on is built to do exactly that—<span className="font-semibold text-white text-lg">impact users, push boundaries, and leave a lasting impression</span>.
+            <span className="font-semibold text-white text-lg">Delivered 10+ production-ready modules and 20+ RESTful APIs</span> supporting 500+ active users across roles at CloudLex, DoaGuru, and Isaii Ai. 
+            <span className="font-semibold text-white text-lg">Certified in Agile Project Management & Full Stack Development</span>, dedicated to clean code, ownership, and measurable impact.
           </p>
         </div>
       </div>

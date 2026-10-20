@@ -58,62 +58,29 @@ function AllProjectsDialog({ isOpen, onClose }) {
         >
           {/* Cards from previous edit */}
 
-        {/* WEB_EXTENSION */}
-          <div className="flex flex-col items-center  ">
-          <Card
-            image={extension}
-            name="Chatyy"
-            description="Turn every tab into an AI-powered helper with instant page insights."
-            bg="middle_div_pink_bg"
-            className="middle_div_pink_shadow"
-            path="/project-details/ecommerce"
-            link=' link="https://github.com/QaisarMoin/chatyy"'
-          />
-          <p className="text-gray-400 text-md mt-4 px-2 text-center
-           max-w-[600px]">
-          <div className="flex max-w-[500px] flex-wrap">
-          <TechCapsule techName="TypeScript" />
-          <TechCapsule techName="ReactJs" />
-          <TechCapsule techName="CSS" />
-          <TechCapsule techName="Gemini" />
-          <TechCapsule techName="NodeJs" />
-          <TechCapsule techName="Tailwind" />
-          <TechCapsule techName="Gsap" />
-
-          </div>
-          Supercharge your browser with an AI that understands every page you visit. <br />
-Ask questions, get instant answers, and interact with content like never before. <br />
-Your smart assistant—built right into every tab. <br />
-          </p>
-        </div>
-
         {/* WEBLY_AI */}
         <div className="flex flex-col items-center  ">
           <Card
             image={webly}
             name="Webly-Ai"
-            description="Describe your idea, and Webly-AI builds a stunning website in seconds."
+            description="AI-powered website generator that converts user prompts into complete React applications."
             bg="middle_div_blue_bg"
             className="middle_div_blue_shadow"
             path="/project-details/ecommerce"
             link='https://weblyai.vercel.app/'
           />
           <p className="text-gray-400 text-md mt-4 px-2 text-center max-w-[600px]">
-          <div className="flex max-w-[500px] flex-wrap">
-          <TechCapsule techName="StackBlitz" />
-          <TechCapsule techName="ReactJs" />
-          <TechCapsule techName="Gemini" />
-          <TechCapsule techName="CSS" />
-          <TechCapsule techName="ExpressJs" />
-          <TechCapsule techName="NodeJs" />
-          <TechCapsule techName="Tailwind" />
-          <TechCapsule techName="Gsap" />
-        
-
+          <div className="flex max-w-[500px] flex-wrap justify-center">
+            <TechCapsule techName="React" />
+            <TechCapsule techName="Vite" />
+            <TechCapsule techName="WebContainer" />
+            <TechCapsule techName="Gemini API" />
+            <TechCapsule techName="Redux Toolkit" />
+            <TechCapsule techName="TailwindCSS" />
           </div>
-          Type your idea, and watch a fully functional website come to life—instantly. <br />
-Webly-AI turns plain text into responsive, elegant websites with zero code. <br />
-AI meets creativity. Websites made effortless. <br />
+          Converts user prompts into complete React applications with automated project structure. <br />
+          Implemented live preview, runtime error detection, and ZIP export (~70% manual setup reduction). <br />
+          Integrated Gemini API for intelligent code generation and dynamic UI creation. <br />
           </p>
         </div>
 
@@ -122,34 +89,55 @@ AI meets creativity. Websites made effortless. <br />
           <Card
             image={pixel}
             name="PixelPrompt"
-            description="Convert rough UI sketches into clean, responsive websites—instantly."
+            description="Sketch-to-Code AI Website Generator converting hand-drawn sketches into responsive websites."
             bg="middle_div_pink_bg"
             className="middle_div_pink_shadow"
             path="/project-details/ecommerce"
             link='https://pixelprompt-five.vercel.app/'
           />
-          <p className="text-gray-400 text-md mt-4 px-2 text-center
-           max-w-[500px]">
-          <div className="flex max-w-[500px] flex-wrap">
-          <TechCapsule techName="StackBlitz" />
-          <TechCapsule techName="ExcaliDraw" />
-          <TechCapsule techName="ReactJs" />
-          <TechCapsule techName="CSS" />
-          <TechCapsule techName="Gemini" />
-          <TechCapsule techName="ExpressJs" />
-          <TechCapsule techName="NodeJs" />
-          <TechCapsule techName="Tailwind" />
-          <TechCapsule techName="Gsap" />
-
+          <p className="text-gray-400 text-md mt-4 px-2 text-center max-w-[600px]">
+          <div className="flex max-w-[500px] flex-wrap justify-center">
+            <TechCapsule techName="React" />
+            <TechCapsule techName="Node.js" />
+            <TechCapsule techName="Express.js" />
+            <TechCapsule techName="OpenAI API" />
+            <TechCapsule techName="WebContainer" />
+            <TechCapsule techName="Excalidraw" />
+            <TechCapsule techName="TailwindCSS" />
           </div>
-          Sketch your UI—on paper, whiteboard, or napkin. <br />
-PixelPrompt instantly converts it into pixel-perfect front-end code. <br />
-From rough ideas to real websites, in seconds. <br />
+          Converts hand-drawn UI sketches and images into fully responsive websites. <br />
+          Features image upload, instant code generation, live preview, and downloadable builds. <br />
+          Tested across 100+ inputs to ensure layout accuracy, responsiveness, and cross-browser compatibility. <br />
           </p>
         </div>
 
-         {/* Code2Concept */}
-         <div className="flex flex-col items-center  ">
+        {/* WEB_EXTENSION */}
+        <div className="flex flex-col items-center  ">
+          <Card
+            image={extension}
+            name="Chatyy"
+            description="Turn every tab into an AI-powered helper with instant page insights."
+            bg="middle_div_pink_bg"
+            className="middle_div_pink_shadow"
+            path="/project-details/ecommerce"
+            link="https://github.com/QaisarMoin/chatyy"
+          />
+          <p className="text-gray-400 text-md mt-4 px-2 text-center max-w-[600px]">
+          <div className="flex max-w-[500px] flex-wrap justify-center">
+            <TechCapsule techName="TypeScript" />
+            <TechCapsule techName="React" />
+            <TechCapsule techName="Gemini API" />
+            <TechCapsule techName="Node.js" />
+            <TechCapsule techName="TailwindCSS" />
+          </div>
+          Supercharge your browser with an AI that understands every page you visit. <br />
+          Ask questions, get instant answers, and interact with content like never before. <br />
+          Your smart assistant—built right into every tab. <br />
+          </p>
+        </div>
+
+        {/* Code2Concept */}
+        <div className="flex flex-col items-center  ">
           <Card
             image={code2concept}
             name="Code2Concept"
@@ -160,22 +148,19 @@ From rough ideas to real websites, in seconds. <br />
             link='https://github.com/QaisarMoin/Code2Concept'
           />
           <p className="text-gray-400 text-md mt-4 px-2 text-center max-w-[600px]">
-          <div className="flex max-w-[500px] flex-wrap">
-          <TechCapsule techName="ReactJs" />
-          <TechCapsule techName="CSS" />
-          <TechCapsule techName="ExpressJs" />
-          <TechCapsule techName="NodeJs" />
-          <TechCapsule techName="Gemini" />
-          <TechCapsule techName="Manim" />
-          <TechCapsule techName="Tailwind" />
-          <TechCapsule techName="Gsap" />
-          <TechCapsule techName="StackBlitz" />
-          <TechCapsule techName="ExcaliDraw" />
-
+          <div className="flex max-w-[500px] flex-wrap justify-center">
+            <TechCapsule techName="React" />
+            <TechCapsule techName="Express.js" />
+            <TechCapsule techName="Node.js" />
+            <TechCapsule techName="Gemini API" />
+            <TechCapsule techName="Manim" />
+            <TechCapsule techName="WebContainer" />
+            <TechCapsule techName="Excalidraw" />
+            <TechCapsule techName="TailwindCSS" />
           </div>
           Stop struggling with dry DSA problems—see them come alive. <br />
           Code2Concept visualizes algorithms step-by-step for fun, intuitive learning. <br />
-Decode logic. Watch it flow. <br />
+          Decode logic, watch execution flow, and master problem-solving. <br />
           </p>
         </div>
 
